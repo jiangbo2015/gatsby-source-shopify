@@ -119,6 +119,7 @@ export const PRODUCTS_QUERY = `
         cursor
         node {
           availableForSale
+          quantityAvailable
           createdAt
           description
           descriptionHtml
@@ -170,6 +171,7 @@ export const PRODUCTS_QUERY = `
             edges {
               node {
                 availableForSale
+                quantityAvailable
                 compareAtPrice
                 compareAtPriceV2 {
                   amount
